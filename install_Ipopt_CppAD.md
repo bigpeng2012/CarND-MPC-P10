@@ -28,7 +28,7 @@ At this point in the curriculum students will have set up their SDC Term 2 envir
     * ```sudo apt-get install gfortran```
     * ```sudo apt-get install unzip```
     * ```wget https://www.coin-or.org/download/source/Ipopt/Ipopt-3.12.7.zip && unzip Ipopt-3.12.7.zip && rm Ipopt-3.12.7.zip```
-    * Call `install_ipopt.sh` with the source directory as the first argument, ex: ```./install_ipopt.sh Ipopt-3.12.7``` or ```bash install_ipopt.sh Ipopt-3.12.7```
+    * Call `install_ipopt.sh` with the source directory as the first argument, ex: ```sudo ./install_ipopt.sh Ipopt-3.12.7``` or ```bash install_ipopt.sh Ipopt-3.12.7```
 
   * **Windows:** For Windows environments there are two main options
     * Follow Linux instructions in the Ubuntu Bash environment. Please not that install instructions should be executed from the repository directory.  Changing to a Windows directory (ie ```cd /mnt/c .....```) can result in installation issues, particularly for Windows directories that contain spaces.
